@@ -8,7 +8,7 @@ public class HomeWorkMain {
         // Нужно уметь получать сумарный вес всех фруктов в коробке
         // Нужно уметь пересыпать все фрукты из одной коробки в другую
 
-       Box<String> stringBox = new Box<>(); // Не должно работать!
+        Box<String> stringBox = new Box<>(); // Не должно работать!
 
         Box<Apple> appleBox = new Box<>();
         appleBox.add(new Apple(3.0));
