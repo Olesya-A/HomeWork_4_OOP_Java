@@ -13,7 +13,7 @@ public class Box<F extends Fruit> {
 
     public double getBoxWeight() {
         double fruitsWeight = 0;
-        for (Fruit fruit : fruitBox) {
+        for (F fruit : fruitBox) {
             fruitsWeight += fruit.getWeight();
         }
         return fruitsWeight;
